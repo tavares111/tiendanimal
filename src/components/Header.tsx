@@ -19,9 +19,9 @@ function NavItem({ name, active}: NavItemProps) {
 export default function Header() {
     return (
         <header className="bg-white">
-            <div className="flex gap-6 p-[18px] max-w-7xl my-auto justify-center items-center mx-auto">
-                <MdMenu size={24} className="cursor-pointer" />
-                <MdSearch size={24} className="cursor-pointer" />
+            <div className="flex gap-6 py-[18px] min-[380px]:px-[18px] max-w-7xl my-auto justify-center items-center mx-auto overflow-y-clip">
+                <MdMenu size={24} className="cursor-pointer flex-shrink-0" />
+                <MdSearch size={24} className="hidden min-[380px]:block cursor-pointer flex-shrink-0" />
                 <div className="min-w-[187px] text-center">
                     <svg width="186" height="25" viewBox="0 0 186 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6.9655 23.5449C6.41609 23.5449 5.95344 23.0955 5.95344 22.5618V4.58424H1.67387C1.12446 4.58424 0.661804 4.13481 0.661804 3.6011V1.41009C0.661804 0.876379 1.12446 0.426941 1.67387 0.426941H15.3801C15.9295 0.426941 16.3921 0.876379 16.3921 1.41009V3.57301C16.3921 4.10672 15.9295 4.55615 15.3801 4.55615H10.927V22.5337C10.927 23.0674 10.4643 23.5168 9.91493 23.5168H6.9655V23.5449ZM34.7249 24.1348C28.5947 24.1348 25.4718 21.073 25.4718 15.0056C25.4718 11.3258 26.5995 8.65728 28.826 7.05615C30.6188 5.76402 32.614 5.59548 33.655 5.59548C36.6333 5.59548 41.6647 6.71908 41.6647 14.191C41.6647 15.4269 41.3756 16.5786 39.3515 16.5786H30.4453C30.7634 18.9944 32.2092 20.2022 34.7249 20.2022C35.9104 20.2022 37.1827 19.9775 38.484 19.5C38.5996 19.4719 38.7153 19.4438 38.831 19.4438C39.2358 19.4438 39.6406 19.6966 39.7852 20.0899L40.4213 21.8033C40.5948 22.2528 40.3924 22.7584 39.9587 23.0112C38.5996 23.7415 36.2285 24.1348 34.7249 24.1348ZM33.9731 9.21908C31.4574 9.21908 30.7345 11.2977 30.561 13.0674H37.096C36.9225 10.3708 35.9972 9.21908 33.9731 9.21908ZM57.2505 23.5449C56.7011 23.5449 56.2384 23.0955 56.2384 22.5618V12.0842C56.2384 9.78087 54.6191 9.4438 53.6649 9.4438C51.9588 9.4438 50.6287 10.0899 49.5588 11.4382C49.5877 11.691 49.5877 11.9719 49.5877 12.2809V22.5618C49.5877 23.0955 49.1251 23.5449 48.5757 23.5449H45.713C45.1636 23.5449 44.7009 23.0955 44.7009 22.5618V7.53368C44.7009 7.28087 44.8166 7.02806 44.9901 6.83144C45.1925 6.63481 45.4527 6.55054 45.713 6.55054H47.7082C48.1708 6.55054 48.5757 6.85953 48.6913 7.30896L48.7202 7.89885C49.3564 7.22469 51.1781 5.59548 54.3878 5.59548C57.2794 5.59548 61.1252 6.26964 61.1252 12.0842V22.5618C61.1252 23.0955 60.6626 23.5449 60.1132 23.5449H57.2505Z" fill="#5C514E"/>
@@ -34,8 +34,8 @@ export default function Header() {
                         <path d="M124.827 5.11799C123.468 5.11799 122.34 4.07866 122.34 2.78653C122.34 1.52248 123.468 0.483154 124.827 0.483154C126.186 0.483154 127.314 1.55057 127.314 2.78653C127.314 4.07866 126.186 5.11799 124.827 5.11799Z" fill="#70A62D"/>
                     </svg>
                 </div>
-                <AiOutlineUser size={24} className="cursor-pointer" />
-                <PiShoppingCartSimpleLight size={24} className="cursor-pointer" />
+                <AiOutlineUser size={24} className="cursor-pointer flex-shrink-0" />
+                <PiShoppingCartSimpleLight size={24} className="hidden min-[380px]:block cursor-pointer flex-shrink-0" />
             </div>
             <nav className="border-t border-[#DBDBDB]">
                 <ul className="flex overflow-y-scroll h-[50px] items-stretch shadow-md gap-2 px-9 scroll-hidden md:justify-center">
