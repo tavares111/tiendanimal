@@ -1,22 +1,16 @@
 # Front-end challenge React 
 
-This project is a **To-Do list application** built with a modern front-end stack. It is developed using **React** and **Next.js** for building dynamic, server-rendered pages. The application is styled using **Tailwind CSS**, allowing for a highly customizable and responsive design.
+This project is a **To-Do list application** built with a modern front-end stack. 
 
-Key features include:
+## Key features include:
 
+- **Next.js**: React framework for server-side rendering and static site generation.
 - **Tailwind CSS** for utility-first styling and rapid UI development.
 - **React Query** for efficient data fetching and synchronization.
 - **React Hook Form** for form management, providing seamless user input handling.
 - **Zod** for schema validation, ensuring the reliability of form data.
 
 The app allows users to list, add, and delete tasks, making it a simple and effective tool for task management.
-
-
-## Technologies Used
-
-- **React**: JavaScript library for building user interfaces.
-- **Next.js**: React framework for server-side rendering and static site generation.
-- **Tailwind**: A utility-first CSS framework
 
 ## Requirements
 
@@ -29,7 +23,7 @@ Follow these steps to run the project locally:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-project.git
+    git clone https://github.com/tavares111/tiendanimal
     ```
 
 2. Navigate to the project directory:
@@ -77,4 +71,4 @@ Describe the project's organization and key folders/files:
 Instructions on how to deploy the project
 
 - The app is deployed on [Vercel](https://vercel.com/) 
-- [Link to the live application](https://your-project.vercel.app).
+- [Link to the live application](https://tiendanimal.vercel.app/).
